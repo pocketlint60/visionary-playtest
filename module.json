@@ -1,0 +1,72 @@
+{
+  "id": "visionary-playtest",
+  "title": "Visionary Playtest",
+  "version": "1.0.0.0",
+  "manifest": "https://github.com/pocketlint60/visionary-playtest/releases/latest/download/module.json",
+  "manifest": "https://github.com/pocketlint60/visionary-playtest/releases/download/1.0.0.0/visionary-playtest.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Ethan Hoffman",
+      "url": "https://ko-fi.com/pocketlint60",
+      "discord": "pocketlint60",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/pocketlint60/visionary-playtest",
+  "flags": {
+	  "visionary-playtest": {
+		  "pf2e-homebrew": {
+			  "classTraits": {
+				  "visionary": {
+					  "label": "Visionary",
+					  "description": "This indicates abilities from the visionary class."
+				  }
+			  },
+			  "featTraits": {
+				  "visionary": {
+					  "label": "Visionary",
+					  "description": "This indicates abilities from the visionary class."
+				  }
+			  },
+			  "spellTraits": {
+				  "visionary": {
+					  "label": "Visionary",
+					  "description": "This indicates abilities from the visionary class."
+				  }
+			  }
+		  }
+	  },
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "visionary-feats",
+      "label": "Visionary Playtest: Feats and Features",
+      "path": "packs/visionary-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "visionary-journals",
+      "label": "Visionary Playtest: Journals",
+      "path": "packs/visionary-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "description": ""
+}
